@@ -1,2 +1,2 @@
 # Nuke pipline menu
-It's part of compositing pipline menu in Python
+It's a part of compositing pipline menu in Python
