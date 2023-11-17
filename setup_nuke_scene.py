@@ -37,9 +37,7 @@ def mg_setup_scene():
 	projPath = nkSceneName.split('/MG/episodes')[0];
 	episode = nkSceneName.split('MG/episodes/')[1].split('/')[0];
 	scNumber = nkSceneName.split('MG/episodes/')[1].split('compose/')[1].split('.nk')[0].split('_')[1];
-	print(nkSceneName)
-	print(episode)
-	print(scNumber)
+
 	for  read in nuke.allNodes('Read'):
 		path = read.knob('file').value();
 		if len(path.split('OUT/RENDER/')) > 1:
